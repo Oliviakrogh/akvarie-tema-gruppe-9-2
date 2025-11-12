@@ -7,6 +7,15 @@ const pinkOgBlaaFisk = document.querySelector(".pink-og-blaa-fisk");
 const darkPinkButton = document.querySelector(".dark-pink-paint");
 const doneFisk = document.querySelector(".done-fisk");
 const arrowButton = document.querySelector(".arrow");
+const tilbageButton = document.querySelector(".tilbage-pil"); // samme element som arrowButton
+
+
+if (tilbageButton) {
+  tilbageButton.addEventListener("click", () => {
+    window.location.href = "../forside-akvarie/index.html";
+  });
+}
+
 
 //Når man trykker på det på fisken der skal være pink farvet. også har jeg lavet sådan at man kan klikke den fra igen. (det er ikke en toggle, fordi jeg kunne ikke få den til at virke når jeg skulle bruge min function)
 pinkButton.addEventListener("click", () => {

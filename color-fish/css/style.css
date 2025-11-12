@@ -42,7 +42,7 @@
   background-image: url("../img/pink-paint.png");
 }
 
-/* Arrow */
+/* Arrow når fisken er færdiglavet */
 .arrow {
   position: relative;
   width: 260px;
@@ -56,8 +56,28 @@
   background-size: contain;
   z-index: 10;
   display: none;
-  background-image: url("../img/arrow.png");
+  background-image: url("../img/tilbage-pil\ copy.png");
+  transform: scaleX(-1);
 }
+
+
+.tilbage-pil{ 
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  bottom: 25px;
+  left: 20px;
+  z-index: 10;
+  border: none;
+  display: block; 
+  background-color: transparent;
+  background-image: url("../img/tilbage-pil\ copy.png");
+}
+
+
 
 /* Fisk */
 .fisk-uden-farve,
