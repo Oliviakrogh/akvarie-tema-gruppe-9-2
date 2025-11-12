@@ -2,21 +2,21 @@
 
  const purpleFish = document.querySelector(".purple-fish");
 
- // script.js
-document.addEventListener("DOMContentLoaded", () => {
-    const vidensButton = document.querySelector(".videns-akvarie");
-    const findButton = document.querySelector(".find-fisken");
-    const colorButton = document.querySelector(".color-fish");
+//  // script.js
+// document.addEventListener("DOMContentLoaded", () => {
+//     const vidensButton = document.querySelector(".videns-akvarie");
+//     const findButton = document.querySelector(".find-fisken");
+//     const colorButton = document.querySelector(".color-fish");
 
-    vidensButton.addEventListener("click", () => {
-        window.location.href = "./index-viden.html";
-    });
+//     vidensButton.addEventListener("click", () => {
+//         window.location.href = "./index-viden.html";
+//     });
 
-    findButton.addEventListener("click", () => {
-        window.location.href = "../find-fisk/index.find.html";
-    });
+//     findButton.addEventListener("click", () => {
+//         window.location.href = "../find-fisk/index.find.html";
+//     });
 
-    colorButton.addEventListener("click", () => {
-        window.location.href = "../color-fish/index.color.html";
-    });
-});
+//     colorButton.addEventListener("click", () => {
+//         window.location.href = "../color-fish/index.color.html";
+//     });
+// });
