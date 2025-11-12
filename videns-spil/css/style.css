@@ -46,7 +46,7 @@ AKVARIE INDHOLD
 }
 
 .cykel {
-    position: absolute;
+    position: fixed;
     bottom: 4vh;
     left: 74vh;
     transform: skew(2deg);
@@ -67,8 +67,6 @@ AKVARIE INDHOLD
     left: 25vh;
     z-index: 50;
 }
-
-
 
 
 /*---------------------------
