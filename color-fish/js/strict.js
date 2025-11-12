@@ -7,7 +7,7 @@ const pinkOgBlaaFisk = document.querySelector(".pink-og-blaa-fisk");
 const darkPinkButton = document.querySelector(".dark-pink-paint");
 const doneFisk = document.querySelector(".done-fisk");
 const arrowButton = document.querySelector(".arrow");
-const tilbageButton = document.querySelector(".tilbage-pil"); // samme element som arrowButton
+const tilbageButton = document.querySelector(".tilbage-pil");
 
 
 if (tilbageButton) {
