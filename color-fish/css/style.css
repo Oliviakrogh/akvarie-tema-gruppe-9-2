@@ -42,7 +42,7 @@
   background-image: url("../img/pink-paint.png");
 }
 
-/* Arrow når man er færdig */
+/* Arrow når fisken er færdiglavet */
 .arrow {
   position: relative;
   width: 260px;
@@ -56,27 +56,28 @@
   background-size: contain;
   z-index: 10;
   display: none;
-  background-image: url("../img/arrow.png");
+  background-image: url("../img/tilbage-pil\ copy.png");
+  transform: scaleX(-1);
 }
 
 
-.tilbage-pil{ /* Min tilbage knap, jeg har placeret nede i venstre hjørne */
-  position: fixed;
-  bottom: 16px;
-  left: 16px;
-  border: none;
-  background: transparent;
-  padding: 8px;
+.tilbage-pil{ 
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
   cursor: pointer;
-  z-index: 20;
+  bottom: 25px;
+  left: 20px;
+  z-index: 10;
+  border: none;
+  display: block; 
+  background-color: transparent;
+  background-image: url("../img/tilbage-pil\ copy.png");
 }
 
 
-.tilbage-pil img{
-  display: block;
-  width: 80px;
-  height: auto;
-}
 
 /* Fisk */
 .fisk-uden-farve,
