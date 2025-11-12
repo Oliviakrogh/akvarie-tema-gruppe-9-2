@@ -32,8 +32,9 @@ AKVARIE INDHOLD
 .baggrund .akvarie{
     width: 1100px;
     max-width: 100%;
+    max-height: 100%;
     left: 8vh;
-    height: 800px;
+    height: relative;
     position: relative; 
 }
 
@@ -42,13 +43,6 @@ AKVARIE INDHOLD
     justify-content: center;
     align-items: center;
     z-index: 1;
-}
-
-.musling {
-    position: absolute;
-    bottom: 9vh;
-    z-index: 2;
-    left: 68vh;
 }
 
 .cykel {
@@ -60,14 +54,14 @@ AKVARIE INDHOLD
 }
 
 .krabbe {
-    position: absolute;
+    position: fixed;
     bottom: 1vh;
     left: 2vh;
     width: 250px;
 }
 
 .talebobel {
-    position: absolute;
+    position: fixed;
     bottom: 32vh;
     width: 300px;
     left: 25vh;
@@ -211,6 +205,7 @@ VIDENSBOKS TIL DATAOBJEKTERNE
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 
