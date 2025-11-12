@@ -14,16 +14,18 @@ const slutBeskeder = [
 
 
 document.addEventListener("DOMContentLoaded", () => {
+
   const talebobleTekst = document.querySelector(".taleboble-tekst");
+  const talebobleContainer = document.querySelector(".taleboble-container");
   const slutparagraf = document.querySelector(".slutparagraf");
 
-  const fisk = document.querySelector(".fisk");
   const overlay = document.querySelector(".overlay");
   const slutoverlay = document.querySelector(".slutoverlay");
+
+  const fisk = document.querySelector(".fisk");
   const fiskGif = document.querySelector(".fisk-gif");
   const fiskGif2 = document.querySelector(".fisk-gif2");
   const boblerfisk = document.querySelector(".boblerfisk");
-  const talebobleContainer = document.querySelector(".taleboble-container");
 
   let introIndex = 0; //Denne linje holder styr på hvilken besked i introBesked-arrayet der skal vises"
   let slutIndex = 0;
@@ -75,6 +77,8 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }, 1000);
   }
+  
+  //Viser min slutbesked
   function visSlutBesked() {
     if (slutIndex < slutBeskeder.length) {
       talebobleTekst.textContent = slutBeskeder[slutIndex++];

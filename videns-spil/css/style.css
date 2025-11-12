@@ -205,6 +205,25 @@ VIDENSBOKS TIL DATAOBJEKTERNE
 }
 
 
+/* Tilbage knap */
+
+.tilbagebtn{ /* Min tilbage knap, jeg har placeret nede i venstre hjørne */
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  border: none;
+  background: transparent;
+  padding: 8px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.tilbagebtn img{
+  display: block;
+  width: 80px;
+  height: auto;
+}
+
 
 
 
