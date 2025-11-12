@@ -98,13 +98,13 @@ const stribetFisk = document.querySelector(".stribet-fisk");
 AUDIO OBJEKTER TIL FISKENE
 ---------------------------*/
 const soundKlovnfisk = new Audio();
-soundKlovnfisk.src = "sound/klovnfisk.mp3";
+soundKlovnfisk.src = "sound-viden/klovnfisk.mp3";
 
 const soundLaks = new Audio();
-soundLaks.src = "sound/bobler.mp3";
+soundLaks.src = "sound-viden/bobler.mp3";
 
 const soundStribetFisk = new Audio();
-soundStribetFisk.src = "sound/cykel.mp3";
+soundStribetFisk.src = "sound-viden/cykel.mp3";
 
 
 /*--------------------------------
