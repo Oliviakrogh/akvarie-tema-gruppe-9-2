@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const colorButton = document.querySelector(".color-fish");
 
     vidensButton.addEventListener("click", () => {
-        window.location.href = "../videns-spil/index.viden.html";
+        window.location.href = "./index-viden.html";
     });
 
     findButton.addEventListener("click", () => {
