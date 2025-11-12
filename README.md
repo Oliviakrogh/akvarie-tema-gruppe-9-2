@@ -1,6 +1,6 @@
 Farvelæg fisken spillet:
 Farvelæg fisken er et spil der er kodet og designet af Olivia.
-Formålet er en interaktiv oplevelse hvor man farvelægger fisken, der svømmer i akvariet. Oprindeligt er det meningen at man skal kunne klikke på en farve og klikke på en del af fisken der skal farvelægges, der er lavet alternativer pga. sværhedsgraden af denne type programmering. Det man kan med fisken er at vælge en farve, også farves kroppen, finnerne og striberne. Spillet er kodet med blandt andet click events, css animation og buttons. Farvelæg fisken taler til den kreative sans og giver børnene mulighed for selvstændigt at bestemme hvilken farve de vil have først.
+Formålet er en interaktiv oplevelse hvor man farvelægger fisken, der svømmer i akvariet. Oprindeligt er det meningen at man skal kunne klikke på en farve og klikke på en del af fisken der skal farvelægges, der er lavet alternativer pga. sværhedsgraden af denne type programmering. Derudover ville vi gerne have at en ny fisk, samt farver, skulle komme ind så man kunne have en runde mere. Det man kan med fisken er at vælge en farve, også farves kroppen, finnerne og striberne. Spillet er kodet med blandt andet click events, css animation og buttons. Farvelæg fisken taler til den kreative sans og giver børnene mulighed for selvstændigt at bestemme hvilken farve de vil have først. 
 
 Gemmelegs spillet:
 Gemmelegs spillet er kodet og designet af Emilia.
