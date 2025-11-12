@@ -12,7 +12,7 @@ const tilbageButton = document.querySelector(".tilbage-pil");
 
 if (tilbageButton) {
   tilbageButton.addEventListener("click", () => {
-    window.location.href = "../forside-akvarie/index.html";
+    window.location.href = "../index.html";
   });
 }
 
